@@ -11,6 +11,31 @@
       crossorigin="anonymous"
     />
     <style>
+      /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Styles for larger screens */
+    @media screen and (min-width: 769px) {
+      /* Adjustments for larger screens */
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+    }
+
+    /* Styles for smaller screens */
+    @media screen and (max-width: 768px) {
+      /* Adjustments for smaller screens */
+      .container {
+        max-width: 100%;
+        padding: 10px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
         span {
           color: rgb(21, 236, 68);
         }
